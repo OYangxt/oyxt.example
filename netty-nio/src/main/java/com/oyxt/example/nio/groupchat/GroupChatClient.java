@@ -66,8 +66,9 @@ public class GroupChatClient {
                         sc.read(buffer);
                         System.out.println(new String(buffer.array()).trim());
                     }
-                    iterator.remove();
+
                 }
+                iterator.remove();
             }
 
         } catch (IOException e) {

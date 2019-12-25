@@ -46,7 +46,6 @@ public class GroupChatServer {
                         if (key.isAcceptable()) {
                             SocketChannel socketChannel = listenChannel.accept();
                             socketChannel.configureBlocking(false);
-
                             socketChannel.register(selector,SelectionKey.OP_READ);
 
                             //提示
@@ -59,9 +58,9 @@ public class GroupChatServer {
                             readData(key);
                         }
 
-                        //当前的key删除，防止重复处理
-                        iterator.remove();
                     }
+                    //当前的key删除，防止重复处理
+                    iterator.remove();
                 }
 
             }
@@ -108,6 +107,7 @@ public class GroupChatServer {
 
             if (targetChannel instanceof SocketChannel && targetChannel != self) {
                 SocketChannel dest = (SocketChannel) targetChannel;
+
                 ByteBuffer buffer = ByteBuffer.wrap(msg.getBytes());
                 dest.write(buffer);
             }
