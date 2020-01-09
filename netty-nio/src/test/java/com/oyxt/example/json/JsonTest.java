@@ -1,6 +1,7 @@
 package com.oyxt.example.json;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import com.oyxt.example.mode.Student;
 import org.junit.Test;
@@ -42,5 +43,12 @@ public class JsonTest {
         Map<String, String> stringStringMap = JSON.parseObject(jsonString, typeReference);
         System.out.println(stringStringMap);
         System.out.println(stringStringMap.get("name"));
+    }
+
+    @Test
+    public void testJSONObject() {
+        String content = "";
+        JSONObject jsonObject = JSON.parseObject(content);
+        System.out.println(jsonObject);
     }
 }

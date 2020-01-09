@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d12f633c-30dd-45e3-b17b-d51bb49cff9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oyxt/example/nio/groupchat/GroupChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oyxt/example/json/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oyxt/example/json/JsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oyxt/example/json/JsonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,36 +28,55 @@
     <option name="myElementSize" value="190" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="625" selection-start-line="625" selection-end-line="625" />
+            <state relative-caret-position="83">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
-                <element signature="e#19247#19248#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#813#1123#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="329">
+              <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
               <folding>
-                <element signature="e#951#952#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/Unpooled.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
+            <state relative-caret-position="570">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1029#1344#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/SignTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="304">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,19 +95,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/json/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="720">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +118,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/mode/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="30">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#473#474#0" expanded="true" />
@@ -116,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/buffer/ScatteringAndGatheringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="615">
               <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,11 +172,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simpleNetty/server/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simpleNetty/client/NettyClient1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simpleNetty/handler/NettyServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oyxt/example/SignTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/oyxt/example/mode/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oyxt/example/json/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyClientHandler.java" />
       </list>
     </option>
   </component>
@@ -174,10 +200,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="208" />
-    <option name="y" value="208" />
-    <option name="width" value="1132" />
-    <option name="height" value="504" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -187,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +252,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-nio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-nio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-nio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-nio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-nio" type="b2602c69:ProjectViewProjectNode" />
@@ -274,12 +317,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577755895369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578554264553" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/microservicecloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -299,13 +345,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonTest.testJsonStringToMap">
-    <configuration name="SignTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oyxt.example.SignTest" />
+  <component name="RunManager" selected="Application.NettyClient1">
+    <configuration name="NettyClient1" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oyxt.example.nio.simple.client.NettyClient1" />
       <module name="netty-nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oyxt.example.*" />
+          <option name="PATTERN" value="com.oyxt.example.nio.simple.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oyxt.example.nio.simple.server.NettyServer1" />
+      <module name="netty-nio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oyxt.example.nio.simple.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,7 +387,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTest.testJSONObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty-nio" />
       <extension name="coverage">
         <pattern>
@@ -338,7 +397,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.oyxt.example.json" />
       <option name="MAIN_CLASS_NAME" value="com.oyxt.example.json.JsonTest" />
-      <option name="METHOD_NAME" value="testJson" />
+      <option name="METHOD_NAME" value="testJSONObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,36 +419,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonTest.testJsonStringToObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty-nio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oyxt.example.json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.oyxt.example.json" />
-      <option name="MAIN_CLASS_NAME" value="com.oyxt.example.json.JsonTest" />
-      <option name="METHOD_NAME" value="testJsonStringToObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SignTest" />
-      <item itemvalue="JUnit.JsonTest.testJson" />
-      <item itemvalue="JUnit.JsonTest.testJsonStringToObject" />
+      <item itemvalue="Application.NettyServer1" />
+      <item itemvalue="Application.NettyClient1" />
       <item itemvalue="JUnit.JsonTest.testJsonStringToMap" />
       <item itemvalue="JUnit.JsonTest" />
+      <item itemvalue="JUnit.JsonTest.testJSONObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient1" />
+        <item itemvalue="Application.NettyServer1" />
+        <item itemvalue="JUnit.JsonTest.testJSONObject" />
         <item itemvalue="JUnit.JsonTest.testJsonStringToMap" />
         <item itemvalue="JUnit.JsonTest" />
-        <item itemvalue="JUnit.JsonTest.testJsonStringToObject" />
-        <item itemvalue="JUnit.JsonTest.testJson" />
-        <item itemvalue="Application.SignTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,79 +446,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577064738500</updated>
-      <workItem from="1577064748732" duration="35463000" />
+      <workItem from="1577064748732" duration="40589000" />
+      <workItem from="1578098612182" duration="9129000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonTest_testJson - 2019.12.30 at 20h 50m 14s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.30 at 20h 50m 54s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.30 at 20h 51m 53s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.30 at 20h 53m 22s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.31 at 09h 01m 03s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.31 at 09h 01m 45s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest_testJson - 2019.12.31 at 09h 03m 43s.xml">
-      <configuration name="JsonTest.testJson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonTest - 2019.12.31 at 09h 30m 12s.xml">
-      <configuration name="JsonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsonTest_testJsonStringToMap - 2019.12.31 at 09h 30m 32s.xml">
       <configuration name="JsonTest.testJsonStringToMap" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JsonTest_testJsonStringToMap - 2019.12.31 at 09h 30m 59s.xml">
       <configuration name="JsonTest.testJsonStringToMap" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonTest_testJsonStringToMap - 2019.12.31 at 09h 31m 31s.xml">
+      <configuration name="JsonTest.testJsonStringToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJsonStringToMap - 2019.12.31 at 09h 31m 36s.xml">
+      <configuration name="JsonTest.testJsonStringToMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 31m 53s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 32m 15s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 32m 27s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 33m 35s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 39m 13s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_testJSONObject - 2019.12.31 at 10h 39m 29s.xml">
+      <configuration name="JsonTest.testJSONObject" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35463000" />
+    <option name="totallyTimeSpent" value="49718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2532258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37419355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,12 +528,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/oyxt/example/SignTest.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractByteBuf.class</url>
           <line>625</line>
@@ -512,34 +550,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/groupchat/GroupChatClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/groupchat/GroupChatClient1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/groupchat/GroupChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -560,16 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -663,51 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#951#952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/Unpooled.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="625" selection-start-line="625" selection-end-line="625" />
-          <folding>
-            <element signature="e#19247#19248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/buffer/ScatteringAndGatheringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -732,11 +692,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/mode/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
             <element signature="e#401#402#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
@@ -748,10 +709,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/buffer/ScatteringAndGatheringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/SignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="304">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -760,10 +739,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oyxt/example/json/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        <state relative-caret-position="720">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/Unpooled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.20.Final/netty-all-4.1.20.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="625" selection-start-line="625" selection-end-line="625" />
+          <folding>
+            <element signature="e#19247#19248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/handler/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/server/NettyServer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1029#1344#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oyxt/example/nio/simple/client/NettyClient1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#813#1123#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
           </folding>
         </state>
       </provider>

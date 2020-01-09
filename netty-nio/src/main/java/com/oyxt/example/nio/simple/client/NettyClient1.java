@@ -1,23 +1,43 @@
 package com.oyxt.example.nio.simple.client;
 
-import io.netty.bootstrap.ServerBootstrap;
+import com.oyxt.example.nio.simple.handler.NettyClientHandler;
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
-import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
  * @author 20190712713
  * @date 2019/12/25 14:49
  */
 public class NettyClient1 {
-    public static void main(String[] args) {
-        EventLoopGroup bossgroup = new NioEventLoopGroup();
-        EventLoopGroup workergroup = new NioEventLoopGroup();
+    public static void main(String[] args) throws InterruptedException {
+        //客户端需要一个事件循环组
+        EventLoopGroup group = new NioEventLoopGroup();
 
+        try {
+            //创建客户端启动对象
+            Bootstrap bootstrap = new Bootstrap();
 
-        ServerBootstrap bootstrap = new ServerBootstrap();
+            //设置相关参数
+            bootstrap.group(group)
+                    .channel(NioSocketChannel.class)
+                    .handler(new ChannelInitializer<SocketChannel>() {
+                        @Override
+                        protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            socketChannel.pipeline().addLast(new NettyClientHandler());
+                        }
+                    });
+            System.out.println("客户端ok...");
+            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 6668).sync();
 
-        bootstrap.group(bossgroup,workergroup)
-                .channel(NioServerSocketChannel.class);
+            //给关闭通道进行监听
+            channelFuture.channel().closeFuture().sync();
+        } finally {
+            group.shutdownGracefully();
+        }
     }
 }
